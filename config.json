@@ -1,0 +1,17 @@
+{
+  "center_mode": true,
+  "mitcent_mode": true,
+  "reveal_speed": 120,
+  "enable_click_reveal": true,
+  "show_info_by_default": false,
+  "enable_dark_compatibility": true,
+  "auto_reveal_back": true,
+  "cloze_revealed_custom": false,
+  "cloze_revealed_color": "#c00000",
+  "cloze_hidden_custom": false,
+  "cloze_hidden_color": "#0284c7",
+  "mouse_scroll_reveal": false,
+  "shortcut_info": "I",
+  "shortcut_roll": "Space",
+  "auto_theme_mode": true
+}

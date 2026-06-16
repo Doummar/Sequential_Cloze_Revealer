@@ -1,0 +1,13 @@
+{
+  "note_type_name": "Sequential Cloze v1",
+  "fields": [
+    "Front",
+    "Back",
+    "Image",
+    "Front Sound",
+    "Back Sound",
+    "Info"
+  ],
+  "front_template": "<div class=\"anki-card-container\">\n  <div class=\"minimal-front\">\n    {{cloze:Front}}\n  </div>\n  \n  {{#Image}}\n  <div class=\"minimal-image\">\n    {{Image}}\n  </div>\n  {{/Image}}\n  \n  {{#Front Sound}}\n  <div class=\"minimal-sound front-sound\">\n    {{Front Sound}}\n  </div>\n  {{/Front Sound}}\n  \n  <div id=\"raw-front\" style=\"display:none !important;\">{{Front}}</div>\n</div>",
+  "back_template": "<div class=\"anki-card-container\">\n  <div class=\"minimal-front\">\n    {{cloze:Front}}\n  </div>\n  \n  {{#Image}}\n  <div class=\"minimal-image\">\n    {{Image}}\n  </div>\n  {{/Image}}\n  \n  <hr id=\"answer-splitter\">\n  \n  <div class=\"minimal-back\">\n    {{Back}}\n  </div>\n  \n  {{#Back Sound}}\n  <div class=\"minimal-sound back-sound\">\n    {{Back Sound}}\n  </div>\n  {{/Back Sound}}\n  \n  {{#Info}}\n  <button class=\"minimal-info-toggle\" id=\"info-toggle-btn\" onclick=\"toggleInfo(event)\" aria-label=\"Toggle Information\">\n    <svg viewBox=\"0 0 24 24\">\n      <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n      <line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line>\n      <line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line>\n    </svg>\n  </button>\n  <div class=\"minimal-info hidden\" id=\"info-content\">\n    {{Info}}\n  </div>\n  {{/Info}}\n  \n  <div id=\"raw-front\" style=\"display:none !important;\">{{Front}}</div>\n</div>"
+}
