@@ -115,7 +115,7 @@ Have an idea for a better workflow?
 
 Open an issue:
 
-https://github.com/YOUR_USERNAME/Sequential_Cloze_Revealer/issues
+[https://github.com/YOUR_USERNAME/Sequential_Cloze_Revealer/issues](https://github.com/Doummar/Sequential_Cloze_Revealer/issues)
 
 ---
 
